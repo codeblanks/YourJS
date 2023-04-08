@@ -1,0 +1,374 @@
+/**************************/
+/* RESPONSIVENESS */
+/**************************/
+
+/**************************/
+/* MEDIUM */
+/**************************/
+@media (min-width: 700px) {
+    /**************************/
+    /* LEARN */
+    /**************************/
+    .learn-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .learn1, .learn2 {
+      margin-bottom: 0;
+    }
+
+    .learn3 {
+      position: relative;
+      left: 50%;
+    }
+
+    /**************************/
+    /* FOOTER */
+    /**************************/
+    .tablet-footer {
+      display: flex;
+    }
+
+    .col-footer + .col-footer {
+      margin-left: 6.25em;
+  }
+}
+
+@media (min-width: 900px) {
+    /**************************/
+    /* GENERAL */
+    /**************************/
+      .section_button {
+        width: auto;
+      }
+
+      section {
+        padding: 7.5em 1.875em;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .left-heading1,
+      .left-paragraph {
+        text-align: left;
+      }
+
+      .section_button {
+        display: inline-block;
+        margin-right: 1em;
+      }
+
+      .col + .col {
+        margin-left: 3em;
+    }
+
+    .indicator {
+        margin-left: 0;
+    }
+
+    .learn-indicator {
+        margin-left: auto;
+    }
+
+    /**************************/
+    /* NAVIGATION */
+    /**************************/
+    nav {
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    .open, .exit {
+      display: none;
+    }
+
+    .new {
+      padding: 2em 1.875em 0 1.875em;
+    }
+
+    nav {
+      visibility: unset;
+      background: none;
+      position: relative;
+      height: auto;
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .nav_link {
+      padding: 0.8em 1em;
+      margin-bottom: 0;
+    }
+  
+    .open_link {
+      font-size: 1.125rem;
+    }
+
+    .nav_button {
+      padding: 0.75em 1.25em;
+      background: #20B46A;
+      border-radius: 4px;
+      border: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+
+    .nav_link.nav_button {
+      color: white;
+    }
+
+    .top-nav {
+      display: flex;
+      margin-top: auto;
+      width: auto;
+      float: right;
+      margin: 0;
+    }
+
+    /**************************/
+    /* BUTTON EFFECT*/
+    /**************************/
+    .nav_link.nav_button:hover {
+      background-color: #48DD93;
+    }
+
+    /**************************/
+    /* HOME */
+    /**************************/
+    .home {
+      padding-top: 6.25em;
+    }
+
+    .section_button {
+      margin-bottom: 0;
+    }
+
+    .home-text-button {
+      width: 50%;
+    }
+
+    .home-image {
+      width: 50%;
+    }
+
+    /**************************/
+    /* GOAL */
+    /**************************/
+    .goal-img {
+      transform: scaleX(1);
+    }
+
+    .goal-text {
+      width: 50%;
+    }
+
+    .goal-image {
+      width: 50%;
+    }
+
+    .goal-text p {
+      margin-bottom: 0;
+    }
+
+    /**************************/
+    /* TEACHER */
+    /**************************/
+    .teacher {
+      padding-top: 6.25em;
+      padding-bottom: 6.25em;
+    }
+
+    .teacher-img {
+      margin-left: 0;
+    }
+
+    .teacher-text {
+      width: 50%;
+    }
+
+    .teacher-text p {
+      margin-bottom: 0;
+    }
+
+    .teacher-image {
+      width: 50%;
+    }
+
+    /**************************/
+    /* PROJECT */
+    /**************************/
+    .project {
+      padding-top: 7.25em;
+    }
+    
+    .project-image {
+      width: 50%;
+    }
+
+    .project-text {
+      width: 50%;
+    }
+
+    .project-text p {
+      margin-bottom: 0;
+    }
+    
+    /**************************/
+    /* FOOTER */
+    /**************************/
+    footer {
+      padding: 4em 1.875em;
+    }
+
+    /**************************/
+    /* FORM */
+    /**************************/
+    .form {
+      padding: 4em 1.875em 12.5em 1.875em;
+    }
+
+    .form-inputs {
+      padding: 2em 3em 4em 3em;
+    }
+
+    .input-col2 {
+        width: 90%;
+    }
+
+    .input-col1 {
+        width: 10%;
+    }
+
+  @media (min-width: 1200px) {
+    /**************************/
+    /* GENERAL */
+    /**************************/
+    section {
+      padding: 7.5em 5em;
+    }
+
+    h1 {
+      font-size: 3.75rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+        
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+        
+    .left-heading1,
+    .left-paragraph {
+      text-align: left;
+    }
+
+    .section_button {
+      display: inline-block;
+      margin-right: 1em;
+    }
+
+    .col + .col {
+      margin-left: 3em;
+    }
+
+      
+    /**************************/
+    /* NAVIGATION */
+    /**************************/
+    .new {
+      padding: 2em 5em 0 5em;
+    }
+
+    /**************************/
+    /* HOME */
+    /**************************/
+    .yourcourse:after {
+      background-image: url(/Img/Yourcourse-span-desktop.svg);
+    }
+
+    /**************************/
+    /* GOAL */
+    /**************************/
+    .goal-text {
+      width: 45%;
+    }
+      
+    /**************************/
+    /* LEARN */
+    /**************************/
+    .learn-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .learn3 {
+      left: 0%;
+    }
+
+    /**************************/
+    /* PROJECT */
+    /**************************/
+    .project-text {
+      width: 45%;
+    }
+
+    .project {
+      padding-top: 10.5em;
+    }
+
+    /**************************/
+    /* FOOTER */
+    /**************************/
+    footer {
+      padding: 4em 5em;
+    }
+      
+    .footer-contents {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /**************************/
+    /* FORM */
+    /**************************/
+    .form {
+      padding: 6.5em 5em 12.5em 5em;
+    }
+    
+    .form-inputs {
+      padding: 2em 5em 4em 5em;
+    }
+
+    /**************************/
+    /* DROPDOWN */
+    /**************************/
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}

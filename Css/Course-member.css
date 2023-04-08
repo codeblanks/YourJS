@@ -1,0 +1,58 @@
+.course-paragraph {
+    margin-bottom: 3em;
+}
+
+.all-content {
+    margin-bottom: 1em;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 1.25em 2em;
+}
+
+.main-content:hover {
+    cursor: pointer;
+}
+
+.sub-content1,
+.sub-content2,
+.sub-content3,
+.sub-content4 {
+    display: none;
+    height: auto;
+}
+
+.arrow1,
+.arrow2,
+.arrow3,
+.arrow4 {
+    transform: rotate(90deg);
+    transition: 0.2s ease;
+}
+
+.dropdown-col {
+    background-color: #323232;
+    border: 1px solid #0E0E0E;
+}
+
+.lesson-link {
+    text-decoration: none;
+}
+
+.dropdown-col:hover {
+    background-color: #797979;
+}
+
+.sign {
+    padding: 1.2em;
+    background-color: #037039;
+}
+
+.values {
+    display: flex;
+    align-items: center;
+}
+

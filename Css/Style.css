@@ -1,0 +1,199 @@
+/**************************/
+/* IMPORTED FONT */
+/**************************/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  padding: 2em 1.25em;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: #12683D;
+  width: 50%;
+  visibility: hidden;
+  transform: translateX(50%);
+  opacity: 0;
+  transition: all .3s;
+  padding: 2em 1.25em;
+  z-index: 1;
+}
+
+.exit {
+  float: right;
+  cursor: pointer;
+}
+
+.top-nav {
+  margin-top: 5em; 
+}
+
+.nav_link {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 1.875em;
+  margin-right: 0.5em;
+}
+
+.nav_item {
+  text-align: right;
+}
+
+.open {
+  cursor: pointer;
+}
+
+.open-nav {
+  visibility: unset;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/**************************/
+/* HOME */
+/**************************/
+.home {
+  padding-top: 3em;
+}
+
+.primary_button {
+  background-color: #20B46A;
+  border: none;
+}
+
+.secondary_button {
+  background: none;
+  border-color: #20B46A;
+  margin-bottom: 3em;
+}
+
+.yourjs {
+  color: #FFFF00;
+}
+
+/**************************/
+/* GOAL */
+/**************************/
+.goal-img {
+  transform: scaleX(-1);
+}
+
+.goal-text {
+  grid-row: 1/2;
+}
+
+
+/**************************/
+/* LEARN */
+/**************************/
+.learn-grid {
+  padding-top: 3.75em;
+}
+
+.learn-img {
+  margin-bottom: 1em;
+}
+
+.learn1, .learn2 {
+  margin-bottom: 3.75em;
+}
+
+/**************************/
+/* TEACHER */
+/**************************/
+.teacher {
+  background-color: #212121;
+}
+
+.teacher-text {
+  grid-row: 1/2;
+}
+
+/**************************/
+/* PROJECT */
+/**************************/
+.project {
+  padding-bottom: 12.5em;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+footer {
+  padding: 4em 1.25em;
+  background-color: #212121;
+}
+
+.footer-logo {
+  margin: 0 0 2em 0;
+}
+
+.footer-content-1,
+.footer-content-2 {
+  margin-bottom: 3.75em;
+}
+
+.footer-content-3 {
+  margin-bottom: 5em;
+}
+
+.text-link {
+  margin-bottom: 1.375em;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.email {
+  font-size: 1.25rem;
+}
+
+.footer-email {
+  margin: 0;
+  margin-right: 0.5em;
+  display: inline-block;
+}
+
+/**************************/
+/* LINK AND BUTTON EFFECTS */
+/**************************/
+.nav_link:hover {
+  color: #88FFC4;
+}
+
+.nav_link:active {
+  font-weight: 700;
+}
+
+.primary_button:hover {
+  background-color: #48DD93;
+}
+
+.secondary_button:hover .button-link{
+  opacity: 0.5;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}
+
+.cta-button:hover {
+  background-color: #48DD93;
+}
